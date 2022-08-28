@@ -1,29 +1,29 @@
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-body{
+body {
   background-color: rgb(218, 237, 255);
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 i {
   padding: 5px;
 }
 
-img{
+img {
   border-radius: 10px;
   width: 70%;
   margin-top: 13%;
 }
 
-a{
+a {
   text-decoration: none;
   color: aliceblue;
 }
 
-button{
+button {
   background-color: rgb(62, 67, 75);
   height: 35px;
   border-radius: 5px;
@@ -32,49 +32,59 @@ button{
   width: 35%;
 }
 
-button:hover
-{
+button:hover {
   background-color: rgb(46, 46, 46);
   height: 35px;
   border-radius: 5px;
-  margin: 10px; 
+  margin: 10px;
   box-shadow: 5px 5px;
 }
 
-.main-card
-{
+.main-card {
   background-color: rgb(28, 37, 51);
   width: 400px;
   text-align: center;
   margin: 20px auto 0 auto;
   border-radius: 10px;
-  box-shadow:
-  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
-  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
-  0 12.5px 10px rgba(0, 0, 0, 0.06),
-  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
-  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
-  0 100px 80px rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
 }
 
-h2, p{
+@media (max-width : 600px) {
+  .main-card {
+    background-color: rgb(28, 37, 51);
+    width: 80vw;
+    text-align: center;
+    margin: 20px auto 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+      0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06),
+      0 22.3px 17.9px rgba(0, 0, 0, 0.072), 0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+      0 100px 80px rgba(0, 0, 0, 0.12);
+  }
+}
+
+h2,
+p {
   color: aliceblue;
   margin-top: 5px;
 }
 
-p{
+p {
   text-align: center;
   width: 90%;
   margin: 5px auto 0 auto;
   font-size: 0.85rem;
 }
 
-h3{
+h3 {
   color: aliceblue;
   font-size: 1rem;
 }
 
-.footer{
+.footer {
   background-color: rgb(47, 57, 70);
   padding: 10px;
   margin-top: 20px;

@@ -1,5 +1,5 @@
 export default function Buttons() {
-    const linkedIn = "www.google.com";
+    const linkedIn = "https://www.google.com";
     const mail = "mailto:yourstrulyvijay12@gmail.com";
 
     return (
